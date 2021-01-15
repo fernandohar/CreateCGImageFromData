@@ -13,19 +13,20 @@
 		EDB2481625A56D1900A7006A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB2481425A56D1900A7006A /* Main.storyboard */; };
 		EDB2481825A56D3000A7006A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB2481725A56D3000A7006A /* Assets.xcassets */; };
 		EDB2481B25A56D3000A7006A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB2481925A56D3000A7006A /* LaunchScreen.storyboard */; };
-		EDB2482625A56D3300A7006A /* nonStandardImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB2482525A56D3300A7006A /* nonStandardImageTests.swift */; };
 		EDB2483125A56D3300A7006A /* nonStandardImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB2483025A56D3300A7006A /* nonStandardImageUITests.swift */; };
+		EDB2484225A56F4900A7006A /* imageData.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDB2484125A56F4900A7006A /* imageData.txt */; };
+		EDB248D225A6F47900A7006A /* nonStandardImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB248D125A6F47900A7006A /* nonStandardImageTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EDB2482225A56D3300A7006A /* PBXContainerItemProxy */ = {
+		EDB2482D25A56D3300A7006A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EDB2480325A56D1900A7006A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EDB2480A25A56D1900A7006A;
 			remoteInfo = nonStandardImage;
 		};
-		EDB2482D25A56D3300A7006A /* PBXContainerItemProxy */ = {
+		EDB248D425A6F47A00A7006A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EDB2480325A56D1900A7006A /* Project object */;
 			proxyType = 1;
@@ -43,12 +44,15 @@
 		EDB2481725A56D3000A7006A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDB2481A25A56D3000A7006A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDB2481C25A56D3000A7006A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EDB2482125A56D3300A7006A /* nonStandardImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nonStandardImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB2482525A56D3300A7006A /* nonStandardImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nonStandardImageTests.swift; sourceTree = "<group>"; };
 		EDB2482725A56D3300A7006A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDB2482C25A56D3300A7006A /* nonStandardImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nonStandardImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB2483025A56D3300A7006A /* nonStandardImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nonStandardImageUITests.swift; sourceTree = "<group>"; };
 		EDB2483225A56D3300A7006A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB2484125A56F4900A7006A /* imageData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = imageData.txt; sourceTree = "<group>"; };
+		EDB248CF25A6F47900A7006A /* nonStandardImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nonStandardImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB248D125A6F47900A7006A /* nonStandardImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nonStandardImageTests.swift; sourceTree = "<group>"; };
+		EDB248D325A6F47A00A7006A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,14 +63,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDB2481E25A56D3300A7006A /* Frameworks */ = {
+		EDB2482925A56D3300A7006A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDB2482925A56D3300A7006A /* Frameworks */ = {
+		EDB248CC25A6F47900A7006A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,6 +86,7 @@
 				EDB2480D25A56D1900A7006A /* nonStandardImage */,
 				EDB2482425A56D3300A7006A /* nonStandardImageTests */,
 				EDB2482F25A56D3300A7006A /* nonStandardImageUITests */,
+				EDB248D025A6F47900A7006A /* nonStandardImageTests */,
 				EDB2480C25A56D1900A7006A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				EDB2480B25A56D1900A7006A /* nonStandardImage.app */,
-				EDB2482125A56D3300A7006A /* nonStandardImageTests.xctest */,
 				EDB2482C25A56D3300A7006A /* nonStandardImageUITests.xctest */,
+				EDB248CF25A6F47900A7006A /* nonStandardImageTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +104,7 @@
 		EDB2480D25A56D1900A7006A /* nonStandardImage */ = {
 			isa = PBXGroup;
 			children = (
+				EDB2484125A56F4900A7006A /* imageData.txt */,
 				EDB2480E25A56D1900A7006A /* AppDelegate.swift */,
 				EDB2481025A56D1900A7006A /* SceneDelegate.swift */,
 				EDB2481225A56D1900A7006A /* ViewController.swift */,
@@ -128,6 +134,15 @@
 			path = nonStandardImageUITests;
 			sourceTree = "<group>";
 		};
+		EDB248D025A6F47900A7006A /* nonStandardImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDB248D125A6F47900A7006A /* nonStandardImageTests.swift */,
+				EDB248D325A6F47A00A7006A /* Info.plist */,
+			);
+			path = nonStandardImageTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,24 +163,6 @@
 			productReference = EDB2480B25A56D1900A7006A /* nonStandardImage.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EDB2482025A56D3300A7006A /* nonStandardImageTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EDB2483825A56D3300A7006A /* Build configuration list for PBXNativeTarget "nonStandardImageTests" */;
-			buildPhases = (
-				EDB2481D25A56D3300A7006A /* Sources */,
-				EDB2481E25A56D3300A7006A /* Frameworks */,
-				EDB2481F25A56D3300A7006A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EDB2482325A56D3300A7006A /* PBXTargetDependency */,
-			);
-			name = nonStandardImageTests;
-			productName = nonStandardImageTests;
-			productReference = EDB2482125A56D3300A7006A /* nonStandardImageTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		EDB2482B25A56D3300A7006A /* nonStandardImageUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDB2483B25A56D3300A7006A /* Build configuration list for PBXNativeTarget "nonStandardImageUITests" */;
@@ -184,6 +181,24 @@
 			productReference = EDB2482C25A56D3300A7006A /* nonStandardImageUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		EDB248CE25A6F47900A7006A /* nonStandardImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB248D625A6F47A00A7006A /* Build configuration list for PBXNativeTarget "nonStandardImageTests" */;
+			buildPhases = (
+				EDB248CB25A6F47900A7006A /* Sources */,
+				EDB248CC25A6F47900A7006A /* Frameworks */,
+				EDB248CD25A6F47900A7006A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDB248D525A6F47A00A7006A /* PBXTargetDependency */,
+			);
+			name = nonStandardImageTests;
+			productName = nonStandardImageTests;
+			productReference = EDB248CF25A6F47900A7006A /* nonStandardImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -196,11 +211,11 @@
 					EDB2480A25A56D1900A7006A = {
 						CreatedOnToolsVersion = 12.2;
 					};
-					EDB2482025A56D3300A7006A = {
+					EDB2482B25A56D3300A7006A = {
 						CreatedOnToolsVersion = 12.2;
 						TestTargetID = EDB2480A25A56D1900A7006A;
 					};
-					EDB2482B25A56D3300A7006A = {
+					EDB248CE25A6F47900A7006A = {
 						CreatedOnToolsVersion = 12.2;
 						TestTargetID = EDB2480A25A56D1900A7006A;
 					};
@@ -220,8 +235,8 @@
 			projectRoot = "";
 			targets = (
 				EDB2480A25A56D1900A7006A /* nonStandardImage */,
-				EDB2482025A56D3300A7006A /* nonStandardImageTests */,
 				EDB2482B25A56D3300A7006A /* nonStandardImageUITests */,
+				EDB248CE25A6F47900A7006A /* nonStandardImageTests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,18 +248,19 @@
 			files = (
 				EDB2481B25A56D3000A7006A /* LaunchScreen.storyboard in Resources */,
 				EDB2481825A56D3000A7006A /* Assets.xcassets in Resources */,
+				EDB2484225A56F4900A7006A /* imageData.txt in Resources */,
 				EDB2481625A56D1900A7006A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDB2481F25A56D3300A7006A /* Resources */ = {
+		EDB2482A25A56D3300A7006A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDB2482A25A56D3300A7006A /* Resources */ = {
+		EDB248CD25A6F47900A7006A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -264,14 +280,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDB2481D25A56D3300A7006A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EDB2482625A56D3300A7006A /* nonStandardImageTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EDB2482825A56D3300A7006A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -280,18 +288,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EDB248CB25A6F47900A7006A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB248D225A6F47900A7006A /* nonStandardImageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EDB2482325A56D3300A7006A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EDB2480A25A56D1900A7006A /* nonStandardImage */;
-			targetProxy = EDB2482225A56D3300A7006A /* PBXContainerItemProxy */;
-		};
 		EDB2482E25A56D3300A7006A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EDB2480A25A56D1900A7006A /* nonStandardImage */;
 			targetProxy = EDB2482D25A56D3300A7006A /* PBXContainerItemProxy */;
+		};
+		EDB248D525A6F47A00A7006A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDB2480A25A56D1900A7006A /* nonStandardImage */;
+			targetProxy = EDB248D425A6F47A00A7006A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -443,7 +459,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = rocks.fernandohar.nonStandardImage;
+				PRODUCT_BUNDLE_IDENTIFIER = rocks.fernandohar.nonStandardImageTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -462,54 +478,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = rocks.fernandohar.nonStandardImage;
+				PRODUCT_BUNDLE_IDENTIFIER = rocks.fernandohar.nonStandardImageTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		EDB2483925A56D3300A7006A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3LGQ2L33H6;
-				INFOPLIST_FILE = nonStandardImageTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = rocks.fernandohar.nonStandardImageTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nonStandardImage.app/nonStandardImage";
-			};
-			name = Debug;
-		};
-		EDB2483A25A56D3300A7006A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3LGQ2L33H6;
-				INFOPLIST_FILE = nonStandardImageTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = rocks.fernandohar.nonStandardImageTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nonStandardImage.app/nonStandardImage";
 			};
 			name = Release;
 		};
@@ -553,6 +525,46 @@
 			};
 			name = Release;
 		};
+		EDB248D725A6F47A00A7006A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3LGQ2L33H6;
+				INFOPLIST_FILE = nonStandardImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rocks.fernandohar.nonStandardImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nonStandardImage.app/nonStandardImage";
+			};
+			name = Debug;
+		};
+		EDB248D825A6F47A00A7006A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3LGQ2L33H6;
+				INFOPLIST_FILE = nonStandardImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rocks.fernandohar.nonStandardImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nonStandardImage.app/nonStandardImage";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -574,20 +586,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDB2483825A56D3300A7006A /* Build configuration list for PBXNativeTarget "nonStandardImageTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EDB2483925A56D3300A7006A /* Debug */,
-				EDB2483A25A56D3300A7006A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		EDB2483B25A56D3300A7006A /* Build configuration list for PBXNativeTarget "nonStandardImageUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EDB2483C25A56D3300A7006A /* Debug */,
 				EDB2483D25A56D3300A7006A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB248D625A6F47A00A7006A /* Build configuration list for PBXNativeTarget "nonStandardImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB248D725A6F47A00A7006A /* Debug */,
+				EDB248D825A6F47A00A7006A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
